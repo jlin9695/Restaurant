@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82995330-a2d2-40ae-8722-d0ae34cc98a0" name="Changes" comment="Studio creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673575997978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Studio creation">
+      <created>1674522623390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674522623390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -9,8 +9,18 @@ public class Menu {
     private ArrayList<MenuItem> items = new ArrayList<>();
 
     public void addItem(MenuItem food){
-        items.add(food);
-        lastItem(items);
+        for (MenuItem item: this.items){
+            if(item.getName().toLowerCase() == food.getName().toLowerCase()){
+                System.out.println("You are trying to add 2 items with the same name!");
+                return;
+            }
+
+        }
+        if(!this.items.contains(food)) {
+            items.add(food);
+            lastItem(items);
+        }
+
     }
     public void printMenu(){
         for(MenuItem item: this.items){
@@ -20,6 +30,21 @@ public class Menu {
             System.out.println(item.getDescription());
             System.out.println("*********");
         }
+    }
+
+    public void seeItem(MenuItem item){
+        if (this.items.contains(item)){
+            System.out.println("*********");
+            System.out.println(this.items.get(this.items.indexOf(item)).getCategory());
+            System.out.println(this.items.get(this.items.indexOf(item)).getName()  +
+                    " " + this.items.get(this.items.indexOf(item)).getPrice() );
+            System.out.println(this.items.get(this.items.indexOf(item)).getDescription());
+            System.out.println("*********");
+        }
+
+    }
+    public void deleteItem(MenuItem item){
+        this.items.remove(item);
     }
     //public void
     public void lastItem(ArrayList<MenuItem> foods){
